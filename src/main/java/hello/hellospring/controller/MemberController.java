@@ -18,4 +18,16 @@ public class MemberController {
     /** 실행 --> Consider defining a bean of type 'hello.hellospring.service.MemberService' in your configuration. 에러문구
      public class MemberService 는 단순한 코드일뿐 @Service로 등록해준다
      */
+
+    
+    /* Setter방식으로 의존성 주입
+
+    private MemberService memberService;
+    @Autowired
+    public void MemberController(MemberService memberService) { // 의존관계를 주입해줌
+        this.memberService = memberService;
+    }
+
+*/
+
 }
